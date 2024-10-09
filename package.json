@@ -1,0 +1,19 @@
+{
+  "name": "gasless_gc",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@thirdweb-dev/engine": "^0.0.12",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2",
+    "hardhat": "^2.22.8",
+    "n": "^10.0.0",
+    "thirdweb": "^5.44.1"
+  }
+}
